@@ -739,6 +739,7 @@ a:hover { color: var(--violet); }
 }
 
 .deity-text p { margin: 0; }
+.deity-text p + p { margin-top: 1rem; }
 
 /* ---------- Request form (Oracle page) ---------- */
 
