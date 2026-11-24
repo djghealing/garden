@@ -791,6 +791,16 @@ a:hover { color: var(--violet); }
 
 .spacer { height: clamp(4rem, 10vw, 8rem); }
 
+/* Screenshot testimonials */
+.testimonial-shot img {
+  grid-column: 3 / -1;
+  display: block;
+  width: 100%;
+  max-width: 36rem;
+  height: auto;
+  border-radius: 14px;
+}
+
 /* ---------- Booking ---------- */
 
 .booking {
@@ -863,6 +873,7 @@ a:hover { color: var(--violet); }
   .epigraph figcaption,
   .testimonial blockquote,
   .testimonial figcaption,
+  .testimonial-shot img,
   .statement p,
   .essay header,
   .essay-body,
