@@ -501,7 +501,7 @@ a:hover { color: var(--violet); }
 .nefer-figure img {
   display: block;
   width: 100%;
-  max-width: 15rem;
+  max-width: 9rem;
   height: auto;
 }
 
@@ -957,7 +957,7 @@ a:hover { color: var(--violet); }
   .deity-text { grid-column: 1 / -1; }
   .deity-image,
   .deity img { grid-column: 1 / -1; max-width: 22rem; margin-bottom: 1.75rem; }
-  .nefer-figure img { max-width: 11rem; }
+  .nefer-figure img { max-width: 7.5rem; }
   .nefer-text { margin-top: 2rem; }
 }
 
