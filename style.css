@@ -566,6 +566,7 @@ a:hover { color: var(--violet); }
 }
 
 .mantra .vault-title + .mantra-words { margin-top: .75rem; }
+.song .vault-title + .verse-text { margin-top: 1rem; }
 
 /* Chants written in capitals: upright and calmer in size */
 .mantra-words.chant-caps {
