@@ -565,6 +565,16 @@ a:hover { color: var(--violet); }
   margin: 0;
 }
 
+.mantra .vault-title + .mantra-words { margin-top: .75rem; }
+
+/* Chants written in capitals: upright and calmer in size */
+.mantra-words.chant-caps {
+  font-style: normal;
+  font-size: clamp(1.15rem, 1.6vw, 1.3rem);
+  line-height: 1.75;
+  letter-spacing: .03em;
+}
+
 .mantra-use {
   color: var(--muted);
   margin: .5rem 0 0;
