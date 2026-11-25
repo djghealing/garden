@@ -549,6 +549,8 @@ a:hover { color: var(--violet); }
 .ritual-body ol { padding-left: 1.25rem; margin: 0; }
 .ritual-body li + li { margin-top: .5rem; }
 .ritual-note { color: var(--muted); }
+.ritual-body .verse-text:first-child { margin-top: .25rem; }
+.ritual-body .practice-note { margin-top: 1.5rem; }
 
 .mantra {
   padding: 1.5rem 0 1.6rem;
