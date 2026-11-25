@@ -571,10 +571,20 @@ a:hover { color: var(--violet); }
 /* Chants written in capitals: upright and calmer in size */
 .mantra-words.chant-caps {
   font-style: normal;
-  font-size: clamp(1.15rem, 1.6vw, 1.3rem);
-  line-height: 1.75;
+  font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+  line-height: 1.6;
   letter-spacing: .03em;
 }
+
+/* Spell names sit small above the chant, so the chant leads */
+.body .mantra .vault-title {
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  color: var(--muted);
+}
+.mantra .vault-title + .mantra-words { margin-top: .5rem; }
 
 .mantra-use {
   color: var(--muted);
