@@ -415,6 +415,9 @@ a:hover { color: var(--violet); }
   margin: 0 0 1.5rem;
 }
 
+.poem .poem-stanzas { grid-column: 6 / -1; }
+.poem .poem-stanzas .verse + .verse { margin-top: 1.4em; }
+
 .poem .verse {
   grid-column: 6 / -1;
   font-family: var(--serif);
@@ -943,6 +946,7 @@ a:hover { color: var(--violet); }
   .block > h2,
   .block > .body,
   .poem h2,
+  .poem .poem-stanzas,
   .poem .verse,
   .epigraph blockquote,
   .epigraph figcaption,
