@@ -338,6 +338,8 @@ a:hover { color: var(--violet); }
 .offerings .name { font-weight: 500; }
 .offerings .meta { color: var(--muted); text-align: right; white-space: nowrap; }
 .offerings .desc { grid-column: 1 / -1; color: var(--muted); margin: 0; max-width: 34rem; }
+.offerings .desc + .desc { margin-top: .6rem; }
+.offerings .desc strong { color: var(--ink); font-weight: 500; }
 
 .after-list { margin-top: 2.5rem; }
 
