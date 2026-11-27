@@ -339,6 +339,14 @@ a:hover { color: var(--violet); }
 .offerings .meta { color: var(--muted); text-align: right; white-space: nowrap; }
 .offerings .desc { grid-column: 1 / -1; color: var(--muted); margin: 0; max-width: 34rem; }
 .offerings .desc + .desc { margin-top: .6rem; }
+.offerings .name.name-red { color: #c1272d; }   /* same red as the oracle */
+.body .offerings-title {
+  margin: 3rem 0 1rem;
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(1.4rem, 2.2vw, 1.75rem);
+  line-height: 1.15;
+}
 .offerings .desc strong { color: var(--ink); font-weight: 500; }
 
 .after-list { margin-top: 2.5rem; }
