@@ -347,6 +347,7 @@ a:hover { color: var(--violet); }
   font-size: clamp(1.4rem, 2.2vw, 1.75rem);
   line-height: 1.15;
 }
+.body .offerings-title-first { margin-top: 0; }
 .offerings .desc strong { color: var(--ink); font-weight: 500; }
 
 .after-list { margin-top: 2.5rem; }
