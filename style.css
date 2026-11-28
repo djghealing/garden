@@ -616,6 +616,12 @@ a:hover { color: var(--violet); }
 .ritual-note { color: var(--muted); }
 .ritual-body .verse-text:first-child { margin-top: .25rem; }
 .ritual-body .practice-note { margin-top: 1.5rem; }
+.inline-note {
+  font-family: var(--sans);
+  font-style: italic;
+  font-size: .9em;
+  color: var(--muted);
+}
 
 .mantra {
   padding: 1.5rem 0 1.6rem;
