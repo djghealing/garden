@@ -656,6 +656,7 @@ a:hover { color: var(--violet); }
   color: var(--muted);
 }
 .mantra .vault-title + .mantra-words { margin-top: .5rem; }
+.mantra .mantra-words + .mantra-words { margin-top: 1.2rem; }
 
 .mantra-use {
   color: var(--muted);
